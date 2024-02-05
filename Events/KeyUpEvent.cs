@@ -4,7 +4,7 @@ using AltV.Net.Client.Elements.Data;
 using AltV.Net.Client.Elements.Interfaces;
 namespace AltV.Atlas.KeyInputs.Client.Events;
 
-public class KeyUpEvent
+internal class KeyUpEvent
 {
     private readonly AtlasKeyInputEvents _atlasKeyInputEvents;
     private readonly IPlayer _player = Alt.LocalPlayer;

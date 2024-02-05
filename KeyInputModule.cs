@@ -8,6 +8,9 @@ namespace AltV.Atlas.KeyInputs.Client;
 /// </summary>
 public static class KeyInputModule
 {
+    /// <summary>
+    /// The keys you want to listen for
+    /// </summary>
     public static List<Key> Keys { get; private set; } = new( );
 
     /// <summary>
